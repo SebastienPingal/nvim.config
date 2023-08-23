@@ -8,6 +8,8 @@ lsp.ensure_installed({
 	'lua_ls',
 })
 
+lsp.nvim_workspace()
+
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
 local cmp_mappings = lsp.defaults.cmp_mappings({
@@ -34,5 +36,6 @@ lsp.on_attach = function(client, bufnr)
 	vim.keymap.set('n', "<leader>vrr", function () vim.lsp.bug.references() end, opts)
 	vim.keymap.set('i', "<C-h>", function () vim.lsp.buf.signature_help() end, opts)
 end
+
 
 lsp.setup()
