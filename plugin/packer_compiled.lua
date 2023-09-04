@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["ayu-vim"] = {
+    loaded = true,
+    path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/ayu-vim",
+    url = "https://github.com/ayu-theme/ayu-vim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -88,6 +93,26 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
+  },
+  edge = {
+    loaded = true,
+    path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/edge",
+    url = "https://github.com/sainnhe/edge"
+  },
+  everforest = {
+    loaded = true,
+    path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
+  },
+  gruvbox = {
+    loaded = true,
+    path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
+  ["jellybeans.vim"] = {
+    loaded = true,
+    path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/jellybeans.vim",
+    url = "https://github.com/nanotech/jellybeans.vim"
   },
   ["kanagawa.nvim"] = {
     loaded = true,
@@ -109,6 +134,11 @@ _G.packer_plugins = {
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  molokai = {
+    loaded = true,
+    path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/molokai",
+    url = "https://github.com/tomasr/molokai"
+  },
   ["neo-tree.nvim"] = {
     loaded = true,
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
@@ -118,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/nui.nvim",
     url = "https://github.com/MunifTanjim/nui.nvim"
+  },
+  nvim = {
+    loaded = true,
+    path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/nvim",
+    url = "https://github.com/catppuccin/nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -171,6 +206,16 @@ _G.packer_plugins = {
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
+  ["seoul256.vim"] = {
+    loaded = true,
+    path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/seoul256.vim",
+    url = "https://github.com/junegunn/seoul256.vim"
+  },
+  sonokai = {
+    loaded = true,
+    path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -201,6 +246,11 @@ _G.packer_plugins = {
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-moonfly-colors"] = {
+    loaded = true,
+    path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
+    url = "https://github.com/bluz71/vim-moonfly-colors"
+  },
   ["vim-one"] = {
     loaded = true,
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/vim-one",
@@ -210,6 +260,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
+  },
+  ["vscode.nvim"] = {
+    loaded = true,
+    path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    url = "https://github.com/mofiqul/vscode.nvim"
   }
 }
 
