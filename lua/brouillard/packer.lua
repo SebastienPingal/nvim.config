@@ -41,6 +41,7 @@ return require('packer').startup(function(use)
   use 'github/copilot.vim'
   use 'tpope/vim-surround'
   use 'tpope/vim-commentary'
+  use 'Lukas-reineke/indent-blankline.nvim'
   use {
     "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",

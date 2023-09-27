@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/Lukas-reineke/indent-blankline.nvim"
+  },
   ["jellybeans.vim"] = {
     loaded = true,
     path = "/home/brouillard/.local/share/nvim/site/pack/packer/start/jellybeans.vim",
